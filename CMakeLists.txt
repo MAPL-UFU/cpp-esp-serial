@@ -1,7 +1,7 @@
 # Embed CA, certificate & key directly into binary
 idf_component_register(SRCS "SerialEventHandler.cpp"
                     INCLUDE_DIRS "."
-                    REQUIRES esp-cpp-e-handler)
+                    REQUIRES cpp-esp-e-handler)
 
 
 set(CMAKE_CXX_STANDARD 17)
