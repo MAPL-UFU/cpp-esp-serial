@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 #include "esp_event.h"
 #include "EventHandler.hpp"
 
