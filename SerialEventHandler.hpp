@@ -24,4 +24,7 @@ class SerialEventHandler : public EventHandler
         static void onEventSerialStringSended(void*, esp_event_base_t, int32_t, void*);
         static void onEventSerialIntegerReceived(void*, esp_event_base_t, int32_t, void*);
         static void onEventSerialStringReceived(void*, esp_event_base_t, int32_t, void*);
+
+        void sendInteger(int);
+        void sendString(std::string);
 };

@@ -54,3 +54,11 @@ void SerialEventHandler::onEventSerialStringReceived(void *handler_args, esp_eve
     SerialEventHandler* context = (SerialEventHandler*)handler_args;
     context->log("ESP Serial Integer");
 }
+
+void SerialEventHandler::sendInteger(int to send){
+    context->log("ESP Serial Integer");
+}
+
+void SerialEventHandler::sendString(string toSend){
+    context->log("ESP Serial String");
+}
