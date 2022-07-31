@@ -56,9 +56,11 @@ void SerialEventHandler::onEventSerialStringReceived(void *handler_args, esp_eve
 }
 
 void SerialEventHandler::sendInteger(int toSend){
-    this->log("ESP Serial Integer" + toSend);
+    string str("ESP Serial Integer");
+    this->log(str + toSend);
 }
 
 void SerialEventHandler::sendString(string toSend){
-    this->log("ESP Serial String" + toSend);
+    string str("ESP Serial Integer");
+    this->log(str + toSend);
 }
